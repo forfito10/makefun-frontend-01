@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>make.fun bounties</title>
+<meta name="description" content="A fast, custom frontend for make.fun: live bounties, bounty pages, leaderboards and profiles.">
+<link rel="stylesheet" href="style.css">
+<script>try{var t=localStorage.getItem('mf-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}</script>
+<script type="module" src="main.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#/">make<span>.fun</span> bounties</a>
+  <nav>
+    <a href="#/">Board</a>
+    <a href="#/rankings">Rankings</a>
+  </nav>
+  <button id="theme" type="button" title="Toggle theme" aria-label="Toggle theme">◐</button>
+</header>
+<main id="app" class="app"></main>
+<footer class="foot"><p>Reads <a href="https://make.fun" rel="noopener">make.fun</a>'s public API · <a href="#/about">about</a> this frontend</p></footer>
+</body>
+</html>
